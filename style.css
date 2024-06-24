@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Dropdown Menu */
+
+nav{
+    position: relative;
+}
+
+nav .mega{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 2.5rem;
+    line-height: 2rem;
+    background-color: #f0f3f2;
+    box-shadow: rgb(0 0 0 / 20%) 0 30px 20px -30px;
+    z-index: 100;
+    display: none;
+}
+
+nav h3.has-child:hover .mega,
+nav .mega:hover {
+  display: block;
+}
+
+nav .mega h4{
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav .mega ul{
+    font-size: small;
+}
+
+.buy-btn{
+    background-color: #ea580c;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: white;
+    border-radius: 30px;
+}

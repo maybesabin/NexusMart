@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    
+    <link rel="icon" href="assets/signin.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <body class="h-[100vh] flex items-center justify-center">
+        <section class="flex flex-col items-center justify-evenly h-[500px] md:h-[600px] w-[360px] md:w-[500px]" style="box-shadow: rgb(0 0 0 / 20%) 0 30px 20px 0px;">
+            <div class="flex items-center gap-2 justify-center flex-col">
+                <h1 class="rounded-xl text-3xl md:text-4xl font-bold">Welcome<sub class="text-2xl text-[#ea580c]">&#x2022;</sub></h1>
+                <h3 class="text-[12px] md:text-[16px]">Create an account or log in to access NexusMart</h3>
+            </div>
+            <div class="flex items-start justify-center flex-col gap-6">
+                <span class="input-span flex items-center justify-center gap-4 md:text-xl"><i class="fa-solid fa-envelope"></i><input class="p-[5px] md:p-[10px] w-[250px] md:w-[350px]" type="email" placeholder="Email id"></span>
+                <span class="input-span flex items-center justify-center gap-4 md:text-xl"><i class="fa-solid fa-lock"></i><input class="p-[5px] md:p-[10px] w-[250px] md:w-[350px]" type="password" placeholder="Password"></span>
+                <h1 class="text-xs md:text-[16px]">Lost Password? <a href="#" class="text-blue-600">Click Here!</a></h1>
+            </div>
+        
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+                <a href="signin.html"><button class="bg-blue-900  text-[15px] md:text-xl px-[70px] md:px-[60px] py-[10px] transition-all hover:bg-blue-800 text-white">Sign Up</button></a>
+                <a href="login.html"><button class="bg-[#e9e9e9] text-[15px] md:text-xl px-[70px] md:px-[60px] py-[10px]  transition-all hover:bg-[#c4c3c3]">Log In</button></a>
+            </div>
+        </section>
+    
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif;
+            }
+    
+            input{
+                border: none;
+                outline: none;
+                background-color: #e9e9e9;
+            }
+    
+            .input-span{
+                padding: 7px 15px;
+                border-radius: 10px;
+                background-color: #e9e9e9;
+            }
+    
+            button{
+                border-radius: 25px;
+            }
+        </style>
+    </body>    
+</body>
+</html>
